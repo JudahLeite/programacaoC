@@ -2,6 +2,7 @@
 
 int main (){
     // declaração das variaveis das duas cartas.
+    //Carta 1
     char estado1 [50];
     char codigo1 [50];
     char cidade1 [50];
@@ -10,6 +11,7 @@ int main (){
     float pib1;
     int turisticos1;
 
+    //Carta 2
     char estado2 [50];
     char codigo2 [50];
     char cidade2 [50];
@@ -22,6 +24,7 @@ int main (){
     printf("Iremos criar duas cartas de Super Trunfo \n");
     printf("Vamos começar pela Carta 1 \n");
 
+    //Dados Carta 1
     printf("Digite o Estado da Carta 1: \n");
     scanf("%s", &estado1);
 
@@ -43,6 +46,7 @@ int main (){
     printf("Digite o Número de Pontos Turísticos da Carta 1: \n");
     scanf("%d", &turisticos1);
 
+    // Dados Carta 2
     printf("Agora criaremos a Carta 2 \n");
 
     printf("Digite o Estado da Carta 2: \n");
@@ -89,4 +93,5 @@ int main (){
     printf("PIB: %.2f bilhões de reais \n", pib2);
     printf("Número de pontos turísticos: %d \n", turisticos2);
 
+    
 }
